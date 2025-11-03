@@ -3,14 +3,14 @@ pipeline {
 
     tools {
         jdk 'jdk21'
-        maven 'maven3'
+        maven 'Maven3'
     }
 
     environment {
         WAR_FILE = 'target/roshambo.war' // Path to the generated WAR file
         TOMCAT_URL = 'http://localhost:9090' // Tomcat server URL
-        TOMCAT_USER = 'impu1s3e' // Tomcat Manager username
-        TOMCAT_PASSWORD = 'Wahid@p12' // Tomcat Manager password
+        TOMCAT_USER = 'haidery_saad' // Tomcat Manager username
+        TOMCAT_PASSWORD = 'haidery_tomcat246' // Tomcat Manager password
     }
 
     stages {
